@@ -12,3 +12,6 @@ output/
 *.jpeg
 *.png
 *.webp
+
+# Explicitly selected and authorized public showcase images only.
+!docs/examples/*.jpg

@@ -6,6 +6,48 @@
 
 视觉结构：**美化后的原景 → 暖纸与跨界线条 → 小人物的一次动作 → 一句有余味的话**。
 
+## 三组原图与成品对照
+
+以下选自近期实际制作记录，经用户授权公开展示。左侧是未美化原图的网页预览，右侧是完成调色与手绘延展的明信片；点击图片可放大查看。预览文件仅做方向校正、等比缩放与压缩。
+
+### 1. 上海虹桥公园 · 心远地自偏
+
+<table>
+  <tr><th width="50%">原图</th><th width="50%">手绘故事明信片</th></tr>
+  <tr>
+    <td align="center"><a href="docs/examples/hongqiao-before.jpg"><img src="docs/examples/hongqiao-before.jpg" width="380" alt="虹桥公园原图：绿桥、楼宇、浓密树木与前景岩石"></a></td>
+    <td align="center"><a href="docs/examples/hongqiao-after.jpg"><img src="docs/examples/hongqiao-after.jpg" width="380" alt="虹桥公园明信片：岩石延伸为纸上石台，一位读者坐着看书，题句心远地自偏"></a></td>
+  </tr>
+</table>
+
+前景岩石顺势变成纸上石台，读者在石边静坐看书，远处楼宇仍然可见。题句引用陶渊明《饮酒·其五》“心远地自偏”，借身处人境而内心自静的意境，不暗示诗人与拍摄地有历史联系。[原文与注释](https://article.xuexi.cn/html/13395986728056917107.html?pid=&ptype=-1&share_to=copylink&source=share&study_style_id=feeds_default)
+
+### 2. 沈阳浑河 · 纵一苇之所如
+
+<table>
+  <tr><th width="50%">原图</th><th width="50%">手绘故事明信片</th></tr>
+  <tr>
+    <td align="center"><a href="docs/examples/hunhe-before.jpg"><img src="docs/examples/hunhe-before.jpg" width="380" alt="沈阳浑河原图：城市天际线、蓝色多面体建筑与宽阔水面"></a></td>
+    <td align="center"><a href="docs/examples/hunhe-after.jpg"><img src="docs/examples/hunhe-after.jpg" width="380" alt="沈阳浑河明信片：水纹化为纸上墨线，一位小舟上的人停桨，题句纵一苇之所如"></a></td>
+  </tr>
+</table>
+
+河面水纹逐渐化为纸上淡墨，小舟上的人物停桨望向对岸。题句节引苏轼《赤壁赋》“纵一苇之所如”，“一苇”比喻小舟；这里借泛舟意境，不把浑河当作赤壁。[引文与词义依据](https://dict.revised.moe.edu.tw/dictView.jsp?ID=149954&la=1&powerMode=0)
+
+### 3. 木屋与云 · 云与片刻
+
+<table>
+  <tr><th width="50%">原图</th><th width="50%">手绘故事明信片</th></tr>
+  <tr>
+    <td align="center"><a href="docs/examples/clouds-before.jpg"><img src="docs/examples/clouds-before.jpg" width="380" alt="木屋云景原图：仰拍蓝天与细云，下方是木屋、树线和围栏"></a></td>
+    <td align="center"><a href="docs/examples/clouds-after.jpg"><img src="docs/examples/clouds-after.jpg" width="380" alt="云与片刻明信片：木屋前围栏延伸为手绘栏杆，小人倚栏仰望天空"></a></td>
+  </tr>
+</table>
+
+木屋前的围栏延伸成细线，小人倚栏抬头看云；保留原片的倾斜视角，以一处停留回应开阔天空。题句“云自有远方，人自有片刻。”为此前制作的原创示例，无名人署名；拍摄地点未知。
+
+三组中新增的手绘人物与动作均为艺术想象。生成式修图及延展会重构局部细节，这些对照展示构图与叙事效果，不代表原片像素不变。
+
 ## 如何工作
 
 1. **看图与选构图**：判断主体、前后层次、可延伸的岸线/道路/枝条等。
@@ -87,7 +129,7 @@ cp -R hetu-photo-story-postcard "${CODEX_HOME:-$HOME/.codex}/skills/"
 | [GitHub 对照](references/github-comparison.md) | 创建 v1.0.0 时的参考与取舍 |
 | [版本记录](CHANGELOG.md) | 版本变化 |
 
-公开仓库不包含用户的风景照片、第三方样片或个人输出。本机可配备自己的参考图，缺少参考图片也能依文字规范工作。
+公开仓库仅在 `docs/examples/` 收录上述三组经用户授权的原图与成品网页预览；其余个人照片、输出及第三方风格样片不随仓库发布。示例图片用于展示，不是技能运行的必需输入。本机可配备自己的参考图，缺少参考图片也能依文字规范工作。
 
 ## 验证范围
 
