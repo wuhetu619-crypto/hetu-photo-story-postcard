@@ -1,4 +1,4 @@
 interface:
   display_name: "河图·手绘故事明信片"
-  short_description: "先美化风景，再结合地名或图片名称背后的故事与诗意，制作手绘故事明信片"
-  default_prompt: "请用 $hetu-photo-story-postcard 先美化风景，再结合我提供的地名或图片名称查找背景素材，制作手绘故事明信片并写一句有意味的话；不清楚名称时让我选择‘不知道’。"
+  short_description: "美化风景并延展手绘故事，优先核实诗词典故，审校图文逻辑与题句余味"
+  default_prompt: "请用 $hetu-photo-story-postcard 美化照片并制作手绘故事明信片，优先选用核实且贴景的诗词典故；没有合适引用再写凝练自洽的原创，先审文案再上图。"
